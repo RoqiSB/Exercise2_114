@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Form Tiket Last Child</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="date" name="trip-start" min="2021-01-01" max="2023-12-31"><br><br>
+            <label for="Tempat">Tempat :</label><br>
+            <select id="tempat" name="Tempat">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Jogyakarta">Jogyakarta</option>
+                <option value="Semarang">Semarang</option> 
+            </select><br><br>
+            <p>Harga Tiket :</p>
+            <input type="radio" name="tiket" id="VVIP" value="VVIP 400K">
+            <label for="VVIP">VVIP 400K</label> <br>
+            <input type="radio" name="tiket" id="VIP" value="VIP 300K">
+            <label for="VIP">VIP 300K</label><br>
+            <input type="radio" name="tiket" id="Festival" value="Festival 200K">
+            <label for="Festival">Festival 200K</label><br><br>
+            <label for="">Jumlah Tiket</label><br>
+            <textarea placeholder="jumlah tiket" name="jumlah" id="jumlah" cols="30"
+                rows="3"></textarea><br><br>
+            <label for="">Favorit Lagu</label><br>
+            <textarea placeholder="lagu yang disukai" name="lagu" id="lagu" cols="40"
+                rows="4"></textarea><br><br>
+            <button type="submit" onclick="kirimData()">Submit</button>
+        </form>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>

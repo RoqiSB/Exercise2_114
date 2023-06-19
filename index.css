@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+}
+  .jumbotron {
+    margin-bottom: 20px;
+}
+.display-4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+h2 {
+    font-family: 'Lobster Two' fantasy;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor:pointer;
+
+}

@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://img.freepik.com/free-vector/abstract-classic-blue-background-design_23-2148447318.jpg');
+}
+.header{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button{
+    margin-top: 5px;
+    background-color: darkblue;
+    color: lightblue;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    font-weight: bold;    
+}
